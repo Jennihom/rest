@@ -1,0 +1,26 @@
+{
+  "name": "blog_by_node",
+  "version": "0.0.0",
+  "description": "jenny blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jennihom/rest.git"
+  },
+  "keywords": [
+    "123"
+  ],
+  "author": "jenny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jennihom/rest/issues"
+  },
+  "homepage": "https://github.com/Jennihom/rest",
+  "dependencies": {
+    "express": "^4.13.0",
+    "express3-handlebars": "^0.5.2"
+  }
+}
