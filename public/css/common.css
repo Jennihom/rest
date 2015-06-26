@@ -1,0 +1,45 @@
+html,body, div, span, form,iframe,
+h1, h2, h3, h4, h5, p, em, img, ol, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+.floatl{float: left;}
+.floatr{float: right;}
+.clearfix:after {
+  content: "\0020";
+  height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+body {
+  font-family: Helvetica, 'STXihei', 'STHeiti Light', '华文细黑', sans-serif;
+  line-height: 1;
+  background-color: #F1F1F1;
+}
+body{
+  background: #fdfdfb url(/img/bg-top.jpg) 50% 0 repeat-x;
+}
+.body1{
+  background: url(/img/paint-home.jpg) 50% -2px no-repeat;
+}
+/*公共头部*/
+header {
+  height: 109px;
+}
+header > div{width:880px;height: 109px;line-height:109px;margin:0 auto;font-size: 25px;color: #adc254;}
+.navi{height: 38px;background: #adc254;margin: 5px 0 40px 0;}
+.navi ul{width: 880px;height: 38px;line-height:38px;margin: 0 auto;}
+.navi ul li {float: left;width: 50px;padding: 0 22px;color: #fff;}
+/*main*/
+.main{width:880px;height: 700px;margin:0 auto;}
